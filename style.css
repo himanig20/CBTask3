@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #001f3f; /* Dark Blue */
+    color: #ffffff; /* White */
+}
+
+#game-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3498db; /* Border color: Blue */
+    border-radius: 8px;
+    background-color: #2980b9; /* Light Blue */
+}
+
+h1 {
+    color: #e74c3c; /* Red */
+}
+
+button {
+    font-size: 18px;
+    margin: 5px;
+}
+
+button.rock {
+    background-color: #f39c12; /* Orange */
+    color: #ffffff; /* White */
+}
+
+button.paper {
+    background-color: #2ecc71; /* Green */
+    color: #ffffff; /* White */
+}
+
+button.scissors {
+    background-color: #e74c3c; /* Red */
+    color: #ffffff; /* White */
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ecf0f1; /* Light Gray */
+}
+
+#score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ecf0f1; /* Light Gray */
+}
