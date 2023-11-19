@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Galactic Battle - Rock, Paper, Scissors Game</title>
+</head>
+<body>
+    <div id="game-container">
+        <h1>Galactic Battle</h1>
+        <p id="message">Choose your spacecraft: Rocket, Comet, or Meteor</p>
+        <div class="choices">
+            <button class="rock" onclick="userChoice('rock')">Rocket</button>
+            <button class="paper" onclick="userChoice('paper')">Comet</button>
+            <button class="scissors" onclick="userChoice('scissors')">Meteor</button>
+        </div>
+        <p id="result"></p>
+        
+        <button onclick="resetGame()">Play Again</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
